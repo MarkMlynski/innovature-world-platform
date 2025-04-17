@@ -134,3 +134,20 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Playwright test output
+playwright-report/
+
+# Lighthouse reports
+reports/
+
+# Cypress artifacts (if used later)
+cypress/videos/
+cypress/screenshots/
+
+# Replit & CI configs
+.replit
+.secret
+*.replit.log
+
+# VS Code workspace file (optional)
+*.code-workspace
